@@ -35,7 +35,7 @@ const Post = ({ objectID, title, points, backClickHandler }) => {
     if (controller) {
       controller.abort();
     }
-
+    setLoading(false);
     backClickHandler();
   };
 
@@ -63,6 +63,7 @@ const Post = ({ objectID, title, points, backClickHandler }) => {
           src={back}
           className="w-6 h-6 cursor-pointer rotate-90 mr-6"
           onClick={backButtonClicked}
+          alt="back"
         />
         <div>
           <div className="text-lg font-bold">{title}</div>

@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import "./App.css";
 import ListItem from "./components/ListItem";
+import Navbar from "./components/Navbar";
 import Post from "./components/Post";
 import Searchbar from "./components/Searchbar";
 import { apiEndpoint } from "./constants";
@@ -80,6 +81,7 @@ function App() {
     <div className="App pt-4 pr-10 pl-10">
       {selectedArticleIdx === -1 ? (
         <div>
+          <Navbar />
           <Searchbar
             searchValue={searchValue}
             searchValueChangeHandler={searchValueChangeHandler}

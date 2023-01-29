@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# News Room App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This web app uses the [HN Search API](https://hn.algolia.com/api) and lets users search for hacker news posts and view details of each post.
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+## Deployed URL
+https://news-room-aditya3356.netlify.app
+
+## Steps to run the app locally
+1. Clone this repository
+2. Open the terminal and `cd` into the project directory
+3. Run `npm install` in the terminal to install the dependencies
+4. Run `npm start` in the terminal to start the development server on port `3000`
+5. After the development server has started successfully, copy this URL `http://localhost:3000` to a new browser tab
 
 ## Available Scripts
 
