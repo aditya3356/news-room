@@ -1,1 +1,1 @@
-export const apiEndpoint = 'http://hn.algolia.com/api/v1/';
+export const apiEndpoint = "https://hn.algolia.com/api/v1/";
